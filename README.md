@@ -6,7 +6,7 @@ Three 8-bit wide EPROMs are used to store 24-bit wide instruction codes.<BR>
 
 [0000-2FFF] External SRAM: 12k words (32k bytes SRAM is used)<br>
 [3000-37FF] UART: 2k words (only 2 bytes are used for Control/Data Registers)<br>
-[3800-39FF] Internal RAM: 512 words (used for pseudo-registers and stack area<br>
+[3800-39FF] Internal RAM: 512 words (used as pseudo-registers and stack area)<br>
 [3A00-3BFF] Reserved: 512words<br>
 [3C00-3FFF] Memory-mapped Control Registers: 1k words<br>
 
