@@ -1,5 +1,5 @@
 ## ADSP2105SBC
-The ADSP2105SBC is a home-built single board computer equipped with Analog Devices ADSP-2105 DSP in 90s, capable of running home-built VTL interpreter.
+The ADSP2105SBC is a home-built single board computer equipped with Analog Devices ADSP-2105 DSP in 90s, capable of running home-built VTL interpreter at 13.824MHz clock.
 
 Three 8-bit wide EPROMs are used to store 24-bit wide instruction codes.<BR>
 16k words external data memory space is allocated as follows.
