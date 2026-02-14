@@ -1,2 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.vtl linguist-language=Very Tiny Language linguist-detectable
