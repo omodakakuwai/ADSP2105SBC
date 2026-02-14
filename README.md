@@ -15,5 +15,8 @@ GAL22V10 generates chip select signals for SRAM/UART based on the DMS# and A[13:
 ADSP-2105 has a 16-level hardware stack, but it is insufficient to realize multiple subroutine calls in the VTL interpreter,
 so a software stack is implemented by using internal RAM as stack area.
 
+[Fig.1] ADSP2105SBC Main board
 ![](https://github.com/omodakakuwai/ADSP2105SBC/blob/main/images/ADSP2105SBC_MAIN.jpg)
+
+[Fig.2] ADSP2105SBC Sub board
 ![](https://github.com/omodakakuwai/ADSP2105SBC/blob/main/images/ADSP2105SBC_SUB.jpg)
