@@ -10,8 +10,10 @@ Three 8-bit wide EPROMs are used to store 24-bit wide instruction codes.<BR>
 [3A00-3BFF] Reserved: 512words<br>
 [3C00-3FFF] Memory-mapped Control Registers: 1k words<br>
 
+GAL22V10 generates chip select signals for SRAM/UART based on the DMS# and A[13:11] signals from DSP.
+
 ADSP-2105 has a 16-level hardware stack, but it is insufficient to realize multiple subroutine calls in the VTL interpreter,
-software stack is implemented by using internal RAM as stack area.
+so a software stack is implemented by using internal RAM as stack area.
 
 ![](https://github.com/omodakakuwai/ADSP2105SBC/blob/main/images/ADSP2105SBC_MAIN.jpg)
 ![](https://github.com/omodakakuwai/ADSP2105SBC/blob/main/images/ADSP2105SBC_SUB.jpg)
