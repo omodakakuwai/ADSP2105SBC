@@ -4,10 +4,11 @@ The ADSP2105SBC is a home-built single board computer equipped with Analog Devic
 Three 8-bit wide EPROMs are used to store 24-bit wide instruction codes.<BR>
 16k words external data memory space is allocated as follows.
 
-External SRAM: 12k words (32k bytes SRAM is used)<br>
-UART: 2k words (only 2 bytes are used for Control/Data Registers)<br>
-Internal RAM: 512 words<br>
-Internal Control Registers: 1k words<br>
+[0000-2FFF] External SRAM: 12k words (32k bytes SRAM is used)<br>
+[3000-37FF] UART: 2k words (only 2 bytes are used for Control/Data Registers)<br>
+[3800-39FF] Internal RAM: 512 words (used for pseudo-registers and stack area<br>
+[3A00-3BFF] Reserved: 512words<br>
+[3C00-3FFF] Memory-mapped Control Registers: 1k words<br>
 
 ![](https://github.com/omodakakuwai/ADSP2105SBC/blob/main/images/ADSP2105SBC_MAIN.jpg)
 ![](https://github.com/omodakakuwai/ADSP2105SBC/blob/main/images/ADSP2105SBC_SUB.jpg)
